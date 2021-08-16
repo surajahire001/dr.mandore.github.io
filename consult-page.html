@@ -102,61 +102,93 @@ button:hover {
     </head>
     <body data-mobile-nav-style="classic">
       <!-- start header -->
-        <header class="header-with-topbar">
-            <nav class="navbar navbar-expand-lg top-space navbar-light bg-white header-light fixed-top navbar-boxed header-reverse-scroll  mobile-top-space">
-                <div class=" container-fluid nav-header-container">
-                    <div class="col-auto col-6 col-lg-2 mr-auto pl-lg-0">
-                        <a class="navbar-brand" href="#" >
-                            <img src="images/logo-3.png"  class="default-logo" alt="">
-                            <img src="images/logo-3.png"  class="alt-logo" alt="">
-                            <img src="images/logo-3.png"  class="mobile-logo" alt="">
-                        </a>
-                    </div>
-                    <div class="col-auto col-lg-8 menu-order px-lg-0">
-                        <button class="navbar-toggler float-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation" aria-expanded="false">
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                            <ul class="navbar-nav alt-font">
-                                <li class="nav-item dropdown megamenu">
-                                    <a href="#" class="nav-link">Home</a>  
-                                </li>
-                                <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Consult</a>
-                                </li>
-                                <li class=" nav-item dropdown simple-dropdown">
-                                    <a href="diagnosis-page.html" class="nav-link">Diagnosis</a> 
-                                </li>
-                                <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Questions</a>
-                                </li>
-                                <li class="active nav-item dropdown simple-dropdown">
-                                    <a href="about-us-page.html" class="nav-link">about</a>
-                                </li>
-                                <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>  
-                    <div class="col-auto col-lg-2 text-right pr-0 font-size-0">
-                        <div class="header-language dropdown d-lg-inline-block">
-                            <a href="#"><i style="color:#00b8e6 ;" class="fas fa-user-circle icon-medium align-middle "></i></a>
-                            <ul class="dropdown-menu alt-font">
-                                <li><a href="#" title="If yo had account">Log in</a></li>
-                                <li><a href="#" title="Dont had account">Sign up</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>    
-            </nav>
-        </header>
-<!-- end header -->
+          <header>
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-boxed navbar-dark
+          bg-transparent
+          header-light
+          fixed-top
+          header-reverse-scroll
+        "
+      >
+        <div class="container-fluid nav-header-container">
+          <div class="col-auto col-sm-6 col-lg-2 mr-auto pl-lg-0">
+            <a class="navbar-brand" href="#">
+              <img src="myimages/logo-3.png" class="default-logo" alt="" />
+              <img src="myimages/logo-3.png" class="alt-logo" alt="" />
+              <img src="myimages/logo-3.png" class="mobile-logo" alt="" />
+            </a>
+          </div>
+          <div class="col-auto col-lg-8 menu-order px-lg-0">
+            <button
+              class="navbar-toggler float-right"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav alt-font">
+                <li class="nav-item">
+                  <a href="home-page.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about-us-page.html" class=" nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="consult-page.html" class=" nav-link">Consult</a>
+                </li>
+                <li class="nav-item">
+                  <a href="diagnosis-page.html" class="active nav-link">Diagnosis</a>
+                </li>
+                <li class="nav-item">
+                  <a href="faq-page.html" class="nav-link">FAQ's</a>
+                </li>
+
+                 <li class="nav-item">
+                  <a href="portfolio-page.html" class="nav-link">Portfolio</a>
+                </li>
 
 
+                <li class="nav-item">
+                  <a href="contact-us-page.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto col-lg-2 text-right pr-0 font-size-0">
+            <div class="header-language dropdown d-lg-inline-block">
+              <a href="my_Acc.html"
+                ><i style="color:#22CEC8;" class="fas fa-user icon-extra-small align-middle" ></i ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- start hero section -->
+        <section class="p-0 parallax" data-parallax-background-ratio="0.3" style="background-image: url('myimages/back-4.png');">
+            <div class="container-fluid position-relative wow animate__fadeIn " data-wow-delay="0.2s">
+                <div class="row small-screen md-h-300px sm-h-300px">
+                    <div class="col-12 col-xl-5 offset-lg-1 col-lg-6 col-md-8 col-sm-10 d-flex flex-column justify-content-center md-padding-35px-left xs-padding-15px-left">
+                         <h2 class="text-white alt-font font-weight-500 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom"><span class="font-weight-600">Treatments or Diagnosis We Treat</span></h2>
+                        <h6 style="color:#22CEC8;  " class="alt-font  margin-15px-bottom d-inline-block">and hospital speciality</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end hero section -->
         
         <!-- start section -->
         <section class="pt-0" style="background-image:url('images/1png.jpg');">
