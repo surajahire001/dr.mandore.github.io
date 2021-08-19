@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-	<title>Diagnosis-info-page</title>
+  <title>user-profile</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="author" content="ThemeZaa">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
   <meta name="description" content="Litho is a clean and modern design, BootStrap 4 responsive, business and portfolio multipurpose HTML5 template with 36+ ready homepage demos.">
-     
-
         <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -27,11 +25,7 @@
  <header>
       <nav
         class="
-          navbar navbar-expand-lg navbar-boxed navbar-dark
-          bg-transparent
-          header-light
-          fixed-top
-          header-reverse-scroll
+          navbar top-space navbar-expand-lg navbar-light bg-white header-light fixed-top header-reverse-scroll navbar-boxed
         "
       >
         <div class="container-fluid nav-header-container">
@@ -65,7 +59,7 @@
                   <a href="home-page.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="about-us-page.html" class="nav-link">About</a>
+                  <a href="about-us-page.html" class=" nav-link">About</a>
                 </li>
                 <li class="nav-item">
                   <a href="consult-page.html" class=" nav-link">Consult</a>
@@ -76,21 +70,21 @@
                 <li class="nav-item">
                   <a href="faq-page.html" class="nav-link">FAQ's</a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                   <a href="portfolio-page.html" class="nav-link">Portfolio</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="login-signup.html" class="nav-link">Contact</a>
+                  <a href="contact-us-page.html" class="nav-link">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-auto col-lg-2 text-right pr-0 font-size-0">
             <div class="header-language dropdown d-lg-inline-block">
-              <a href="my_Acc.html"
+              <a href="login-signup.html" 
                 ><i
-                  style="color:#22CEC8"
+                  style="color:#22CEC8;"
                   class="fas fa-user icon-extra-small align-middle"
                 ></i
               ></a>
@@ -100,48 +94,67 @@
     </header>
 
 
-        <section class="p-0 parallax md-h-300px sm-h-300px" data-parallax-background-ratio="0.3" style="background-image: url('all_images/back-diagnosis-info.png');">
-            <div class="container-fluid position-relative  wow animate__fadeIn " data-wow-delay="0.2s">
-                <div class="row small-screen ">
-                    <div class="col-12 col-xl-5 offset-lg-1 col-lg-6 col-md-8 col-sm-10 d-flex flex-column justify-content-center md-padding-35px-left xs-padding-15px-left">
-                        <h2 class="text-white alt-font font-weight-500 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom"><span class="font-weight-600">Diagnosis Name</span></h2>
+
+         <!-- start page title -->
+        <section class="wow animate__fadeIn bg-light-gray padding-25px-tb page-title-small">
+            <div class="padding-80px-lr">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-xl-8 col-lg-6">
+                        <h1 class="alt-font text-extra-dark-gray font-weight-500 no-margin-bottom text-center text-lg-left">Login / Register</h1>
+                    </div>
+                    <div class="col-12 col-xl-4 col-lg-6 breadcrumb justify-content-center justify-content-lg-end text-small alt-font md-margin-10px-top">
+                        <ul class="xs-text-center">
+                            <li><a href="index.html">Home</a></li>
+                            <li>Login-Register</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end page title -->
+
+<section class="half-section wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="bg-light-gray col-12 col-xl-5 col-md-6 lg-padding-30px-lr md-padding-15px-lr sm-margin-40px-bottom">
+                        <form class=" padding-4-rem-all lg-margin-35px-top md-padding-2-half-rem-all">
+                           <h6 class="alt-font font-weight-500 text-extra-dark-gray">Login</h6>
+                            <label class="margin-15px-bottom">Username or email address <span class="required-error text-radical-red">*</span></label>
+                            <input class="small-input bg-white margin-20px-bottom required" type="text" name="text" placeholder="Enter your email">
+                            <label class="margin-15px-bottom">Password <span class="required-error text-radical-red">*</span></label>
+                            <input class="small-input bg-white margin-20px-bottom required" type="password" name="password" placeholder="Enter your password">
+                            <label class="margin-25px-bottom">
+                                <input class="d-inline-block align-middle w-auto mb-0 margin-5px-right" type="checkbox" name="account">
+                                <span class="d-inline-block align-middle">Remember me</span> 
+                            </label>
+                            <button class="btn btn-medium btn-fancy btn-iris-blue w-100 submit" type="submit">Login</button>
+                            <p class="text-right margin-20px-top mb-0"><a href="#" class="btn btn-link  btn-medium text-extra-dark-gray">Lost your password?</a></p>
+                        </form>
+                    </div>
+                    <div class="bg-light-gray col-12 col-xl-5 offset-xl-1 col-md-6 lg-padding-30px-lr md-padding-15px-lr">
+                        <form class=" padding-4-rem-all lg-margin-35px-top md-padding-2-half-rem-all">
+                           <h6 class="alt-font font-weight-500 text-extra-dark-gray">Register</h6>
+                            <label class="margin-15px-bottom">Username <span class="required-error text-radical-red">*</span></label>
+                            <input class="small-input bg-white margin-20px-bottom required" type="text" name="text" placeholder="Enter your username">
+                            <label class="margin-15px-bottom">Email address <span class="required-error text-radical-red">*</span></label>
+                            <input class="small-input bg-white margin-20px-bottom required" type="email" name="email" placeholder="Enter your email">
+                            <label class="margin-15px-bottom">Password <span class="required-error text-radical-red">*</span></label>
+                            <input class="small-input bg-white margin-20px-bottom required" type="password" name="password" placeholder="Enter your password">
+                            <p class="text-small">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#" class="text-decoration-underline">privacy policy</a>.</p>
+                            <button class="btn btn-medium btn-fancy btn-iris-blue w-100 submit" type="submit">Register</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
 
-   
-         <section class="bg-light-gray home-dentist ">
-            <div class="container-fluid">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-xl-5 col-lg-5 offset-lg-1  text-lg-left  wow animate__fadeIn " data-wow-delay="0.3s">
-
-                        <h4 class="alt-font font-weight-400 text-extra-dark-gray letter-spacing-minus-1px margin-25px-bottom">
-                            <span class="font-weight-600">Overview</span>
-                        </h4>
-
-                        <p class="w-90 d-inline-block">Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation. Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation.Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation.Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation.Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation.</p>
-                        
-                    
-                </div> 
-
-                    <div class="col-12 col-xl-6 col-lg-5 col-md-10  wow animate__fadeIn " data-wow-delay="0.6s">
-                        <div class="position-relative w-95 md-w-100">
-                            <img  src="all_images/dummy.png" alt="" />
-                            
-                        </div>
-                    </div>                   
-                </div>
-            </div>
-        </section>
 
 
 
-
-  <footer style="background-color: #3d3b3c;" class="footer-dark">
+   <footer style="background-color: #3d3b3c;" class="footer-dark ">
             <div class="container">
 
-            <div class="footer-top  padding-two-tb md-padding-10px-tb ">
+            <div class="  padding-two-tb md-padding-10px-tb ">
             
                     <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2  ">
 
@@ -189,13 +202,17 @@
                 </div>
          
         </footer>
-          <!-- start scroll to top -->
-        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-arrow-up"></i></a>
-        <!-- end scroll to top  -->
+
+        <!-- start scroll to top -->
+    <a class="scroll-top-arrow" href="javascript:void(0);"
+      ><i class="feather icon-feather-arrow-up"></i
+    ></a>
+    <!-- end scroll to top -->
                 <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
+
 
