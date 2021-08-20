@@ -3069,6 +3069,7 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 
 .page-title-extra-small h1 { font-size: 16px; line-height: 20px; }
 .page-title-small h1 { font-size: 18px; line-height: 20px; }
+.page-title-med h1 { font-size: 22px; line-height: 25px; }
 .page-title-medium h1 { font-size: 28px; line-height: 32px; }
 .page-title-large h1 { font-size: 42px; line-height: 49px; }
 .page-title-extra-large h1 { font-size: 55px; line-height: 62px; }
